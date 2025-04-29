@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en-US">
+    <!-- Head section - contains page title and site metadata -->
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/mainstyles.css">
+        <link rel="stylesheet" href="css/hamburger.css">
+		<meta charset="UTF-8">
+		<meta name="description" content="Portfolio Homepage">
+		<meta name="keywords" content="Portfolio, EPortfolio, Web Design, Graphic Design">
+		<meta name="author" content="John Cinek">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/08d99e7348.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <video autoplay loop muted class="backvideo2">
+            <source src="assets/MotionGraphic2.mp4">
+        </video>
+        <nav>
+            <ul id="jsnav"></ul>
+            <ul class="hamburgerNav">
+                <li class="navItem">
+                    <a href="home.html">
+                    Home
+                    </a>
+                </li>
+                <li class="navItem">
+                    <a href="aboutme.html">
+                    About
+                    </a>
+                </li>
+                <li class="navItem">
+                    <a href="contactme.html">
+                    Contact
+                    </a>
+                </li>
+                <li class="navItem">
+                    <a href="gallery.html">
+                    Gallery
+                    </a>
+                </li>
+                <li class="navItem">
+                    <a href="mypage.html">
+                    Chat
+                    </a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+        <header class="headerflex">
+            <h1 id="userName"></h1>
+            <h5>
+                <strong id="showCount"></strong>
+            </h5>
+        </header>
+        <main class="centermain">
+            <p>
+                To learn more about me, get started by clicking one of the icons below.
+            </p>
+            <div class="homeIcons">
+                <a href="aboutme.html">
+                    <i class="fa-solid fa-id-card"></i>
+                    <p>About Me</p>
+                </a>
+
+
+                <a href="gallery.html">
+                    <i class="fa-solid fa-camera-retro"></i>
+                    <p>Gallery</p>
+                </a>
+
+
+                <a href="contactme.html">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>Contact Me</p>
+                </a>
+
+                <a href="mypage.html">
+                    <i class="fa-solid fa-message"></i>
+                    <p>Chatroom</p>
+                </a>
+            </div>
+        </main>
+        <footer id="jsfooter"></footer>
+        <script src="scripts/navandfooter.js"></script>
+        <script src="scripts/displayusers.js"></script>
+        <script src="scripts/visitcount.js"></script>
+        <script src="scripts/hamburger.js"></script>
+    </body>
+</html>

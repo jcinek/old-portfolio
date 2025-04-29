@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    overflow: hidden;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50vh;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Press Start 2P";
+    font-size: 3em;
+    color: whitesmoke;
+}
+
+h3 {
+    margin: 1.5em;
+    margin-bottom: 2.2em;
+    color: whitesmoke;
+    font-family: "Press Start 2P";
+    font-size: .7em;
+}
+
+#getNameContainer {
+    display: none;
+}
+
+#indexLabel {
+    margin: .8em;
+    color: whitesmoke;
+    font-family: "Press Start 2P";
+    font-size: .9em;
+}
+
+#getName {
+    width: 20em;
+    margin: 1em;
+    height: 1em;
+    padding: .5em;
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Press Start 2P";
+    font-size: 1.3em;
+    background-color: black;
+    border: .1em solid white;
+    border-radius: .6em;
+}
+
+#getName:focus {
+    background-color: rgba(134, 19, 63, 0.9);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.enterbutton {
+    width: 12em;
+    padding: 2em;
+    border-style: groove;
+    border-radius: .7em;
+    border-color: rgb(63, 19, 134);
+    background-color: rgb(63, 19, 134);
+    font-family: "Press Start 2P";
+    font-size: .7em;
+    margin: 1em;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.enterbutton:hover {
+    padding: 2em 2.5em;
+    cursor: pointer;
+}
+
+.enterbutton:active {
+    color: rgb(224, 181, 180);
+    border-color: rgb(134, 19, 63);
+    background-color: rgb(134, 19, 63);
+}
+
+.backvideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}

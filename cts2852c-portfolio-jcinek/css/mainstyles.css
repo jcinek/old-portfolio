@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Osmanya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+html {
+    height: 100%;
+}
+
+.backvideo2 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+body::-webkit-scrollbar-track {
+    background: #1b1b1b; 
+    
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background: #3d3d3d; 
+    border-radius: .4em;
+}
+
+header {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+.headerflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+main {
+    margin-bottom: 5em;
+}
+
+main p {
+    line-height: 2em;
+}
+
+.centermain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.centertext {
+    text-align: center;
+}
+
+#jsfooter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    background-color: #000000;
+    text-align: center;
+    color: whitesmoke;
+    z-index: 1;
+    font-weight: 300;
+    font-size: .9em;
+}
+
+#jsfooter p {
+    margin: .8em;
+}
+
+#jsfooter a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0 .5em;
+}
+
+#jsfooter a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    border-top: .1em solid white;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-bottom: .1em solid white;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#jsnav li {
+    display: inline-flex;
+    list-style-type: none;
+    color: whitesmoke;
+    font-family: "Press Start 2P";
+    font-family: 'Play', sans-serif;
+    font-size: 1em;
+}
+
+#jsnav a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    width: 5em;
+    padding: 1em;
+}
+
+nav a:active {
+    background-color: rgba(102, 0, 133, 0.8);
+    color: rgb(224, 181, 180);
+}
+
+nav li:hover {
+    background-color: rgba(82, 0, 107);
+}
+
+#activepage {
+    background-color: rgba(82, 0, 107, 0.8);
+}
+
+#activepage:hover {
+    cursor: default;
+    background-color: rgba(82, 0, 107, 0.8);
+}
+
+@media all and (max-width: 700px) {
+    footer {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+}

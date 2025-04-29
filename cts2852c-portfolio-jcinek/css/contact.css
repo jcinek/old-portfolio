@@ -1,0 +1,143 @@
+h1 {
+    color: whitesmoke;
+}
+
+h2 {
+    color: whitesmoke;
+    margin-bottom: 0;
+    margin-top: 2em;
+}
+
+.contactWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+i {
+    font-size: 7em;
+}
+
+main a:hover i {
+    color: rgba(104, 104, 104, .8);
+    transition: .15s ease-in-out;
+}
+
+main a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    margin: 3em;
+}
+
+main a p {
+    margin-bottom: 0;
+    font-size: .9em;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    width: 38em;
+    padding: 1em;
+    border-radius: .5em;
+}
+
+#contactForm input {
+    width: 22em;
+    height: 2em;
+    margin: .85em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .3em;
+}
+
+#contactForm textarea {
+    width: 25em;
+    margin: .85em;
+    padding: .3em;
+}
+
+#textBoxLabel {
+    margin-top: 1.5em;
+}
+
+#formButtons {
+    flex-direction: row;
+}
+
+#formButtons > input {
+    width: 6em;
+}
+
+.error:focus {
+    border-color: red;
+}
+
+#firstNmError {
+    border: .1em solid red;
+    background-color: rgba(197, 96, 87, 0.9);
+    padding: .2em;
+    margin-bottom: 1em;
+    font-size: .9em;
+    display: none;
+}
+
+#lastNmError {
+    border: .1em solid red;
+    background-color: rgba(197, 96, 87, 0.9);
+    padding: .2em;
+    margin-bottom: 1em;
+    font-size: .9em;
+    display: none;
+}
+
+#emailError {
+    border: .1em solid red;
+    background-color: rgba(197, 96, 87, 0.9);
+    padding: .2em;
+    margin-bottom: 1em;
+    font-size: .9em;
+    display: none;
+}
+
+#dateError {
+    border: .1em solid red;
+    background-color: rgba(197, 96, 87, 0.9);
+    padding: .2em;
+    margin-bottom: 1em;
+    font-size: .9em;
+    display: none;
+}
+
+#passError {
+    border: .1em solid red;
+    background-color: rgba(197, 96, 87, 0.9);
+    padding: .2em;
+    margin-bottom: 1em;
+    font-size: .9em;
+    display: none;
+}
+
+#passWarn {
+    font-size: .8em;
+}
+
+@media all and (max-width: 700px) {
+    #contactForm {
+        text-align: center;
+        width: 22em;
+    }
+}

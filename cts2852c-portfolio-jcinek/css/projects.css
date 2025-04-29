@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+
+main h3 {
+    margin-bottom: 0;
+}
+
+img {
+    width: 30vw;
+    margin-bottom: 1.5em;
+}
+
+.wideImg {
+    width: 40vw;
+}
+
+i {
+    font-size: 3em;
+}
+
+main a {
+    margin-top: 4em;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+p a {
+    text-decoration: underline;
+}
+
+p a:active {
+    text-decoration: none;
+}
+
+main p {
+    width: 25vw;
+    margin: auto;
+    margin-top: 2.5em;
+    text-align: center;
+    line-height: 2.2em;
+}
+
+.weddingWrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.weddingWrapper img {
+    width: 25vw;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+footer {
+    border-top: .1em solid white;
+}
+
+@media all and (max-width: 1000px) {
+    .weddingWrapper {
+        flex-direction: column;
+    }
+    .weddingWrapper img {
+        width: 20em;
+    }
+    main p {
+        width: 20em;
+    }
+}

@@ -1,0 +1,13 @@
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60vw;
+}
+
+@media all and (max-width: 800px) {
+    article {
+        width: 25em;
+    }
+}

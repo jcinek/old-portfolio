@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en-US">
+    <!-- Head section - contains page title and site metadata -->
+    <head>
+        <title>Chat</title>
+        <link rel="stylesheet" href="css/mainstyles.css">
+        <link rel="stylesheet" href="css/chat.css">
+        <link rel="stylesheet" href="css/hamburger.css">
+		<meta charset="UTF-8">
+		<meta name="description" content="My Page">
+		<meta name="keywords" content="Portfolio, EPortfolio, Web Design, Graphic Design">
+		<meta name="author" content="John Cinek">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <video autoplay loop muted class="backvideo">
+            <source src="assets/MotionGraphic.mp4">
+        </video>
+        <nav>
+            <ul id="jsnav"></ul>
+            <ul class="hamburgerNav">
+                <li class="navItem">
+                    <a href="home.html">
+                    Home
+                    </a>
+                </li>
+                <li class="navItem">
+                    <a href="aboutme.html">
+                    About
+                    </a>
+                </li>
+                <li class="navItem">
+                    <a href="contactme.html">
+                    Contact
+                    </a>
+                </li>
+                <li class="navItem">
+                    <a href="gallery.html">
+                    Gallery
+                    </a>
+                </li>
+                <li class="navItem">
+                    <a href="mypage.html">
+                    Chat
+                    </a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+        <header class="headerflex">
+            <h1>Chat</h1>
+        </header>
+        <main>
+            <div id="chatWrapper">
+                <div id="chat">
+                  <!-- messages will display here -->
+                  <ul id="messages"></ul>
+          
+                  <!-- form to send message -->
+                  
+                </div>
+                <form id="message-form">
+                  <input id="message-input" type="text">
+                  <button id="message-btn" type="submit">Send</button>
+                </form>
+              </div>
+        </main>
+        <footer id="jsfooter"></footer>
+        <script src="scripts/navandfooter.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+        <script src="scripts/chat.js"></script>
+        <script src="scripts/hamburger.js"></script>
+    </body>
+</html>

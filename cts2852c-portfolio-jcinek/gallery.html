@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en-US">
+    <!-- Head section - contains page title and site metadata -->
+    <head>
+        <title>Gallery</title>
+        <link rel="stylesheet" href="css/mainstyles.css">
+        <link rel="stylesheet" href="css/gallery.css">
+        <link rel="stylesheet" href="css/hamburger.css">
+		<meta charset="UTF-8">
+		<meta name="description" content="Portfolio Gallery">
+		<meta name="keywords" content="Portfolio, EPortfolio, Web Design, Graphic Design">
+		<meta name="author" content="John Cinek">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/08d99e7348.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav>
+            <ul id="jsnav"></ul>
+            <ul class="hamburgerNav">
+                <li class="navItem">
+                    <a href="home.html">
+                    Home
+                    </a>
+                </li>
+                <li class="navItem">
+                    <a href="aboutme.html">
+                    About
+                    </a>
+                </li>
+                <li class="navItem">
+                    <a href="contactme.html">
+                    Contact
+                    </a>
+                </li>
+                <li class="navItem">
+                    <a href="gallery.html">
+                    Gallery
+                    </a>
+                </li>
+                <li class="navItem">
+                    <a href="mypage.html">
+                    Chat
+                    </a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+        <header class="headerflex">
+            <h1>Gallery</h1>
+        </header>
+        <main class="centermain">
+            <div class="container">
+                <i class="fa-solid fa-caret-left" id="prevBtn"></i>
+                <i class="fa-solid fa-caret-right" id="nextBtn"></i>
+                <div class="mySlides">
+                    <img id="lastImg" src="assets/img6_1.jpg" alt="jQuery Picture">
+                    <img src="assets/img1_1.png" alt="Death Poster">
+                    <img src="assets/img2_1.jpg" alt="Void Poster">
+                    <img src="assets/img3_1.png" alt="Wedding Photos">
+                    <img src="assets/img4_1.jpg" alt="Agora Picture">
+                    <img src="assets/img5_1.jpg" alt="Greedy Token Picture">
+                    <img src="assets/img6_1.jpg" alt="jQuery Picture">
+                    <img id="firstImg" src="assets/img1_1.png" alt="Death Poster">
+                </div>
+            </div>
+            <div class="imageFlex">
+                <h2>Photoshop</h2>
+                <a href="projectvoid.html">
+                    <div class="imgWrap">
+                        <img src="assets/img2.jpg" alt="Void Poster">
+                        <p class="imgText">See More About This</p>
+                    </div>
+                </a>
+                <p>Game Cover - Project Title: VOID</p>
+                <a href="projectdeath.html">
+                    <div class="imgWrap">
+                        <img src="assets/img1.png" alt="Death Poster">
+                        <p class="imgText">See More About This</p>
+                    </div>
+                </a>
+                <p>Movie Poster - Project Title: Death</p>
+                <a href="projectweddingphotos.html">
+                    <div class="imgWrap">
+                        <img src="assets/img3.png" alt="Wedding Photos">
+                        <p class="imgText">See More About This</p>
+                    </div>
+                </a>
+                <p>Wedding Photo Project</p>
+
+                <h2>Web Design</h2>
+                <a href="projectagora.html">
+                    <div class="imgWrap">
+                        <img src="assets/img4_1.jpg" alt="Agora Picture">
+                        <p class="imgText">See More About This</p>
+                    </div>
+                </a>
+                <p>Web Design - Project Title: Agora</p>
+
+                <h2>JavaScript Projects</h2>
+                <a href="projectgreedy.html">
+                    <div class="imgWrap">
+                        <img src="assets/img5_1.jpg" alt="Greedy Token Picture">
+                        <p class="imgText">See More About This</p>
+                    </div>
+                </a>
+                <p>JavaScript - Greedy Token Algorithm Demo</p>
+                <a href="projectjQuery.html">
+                    <div class="imgWrap">
+                        <img src="assets/img6_1.jpg" alt="jQuery Picture">
+                        <p class="imgText">See More About This</p>
+                    </div>
+                </a>
+                <p>JavaScript - jQuery Effects Demo</p>
+
+                <h3>
+                    Motion&hyphen;graphic backgrounds for this site were made by me in Adobe After Effects.
+                </h3>
+                <i class="fa-regular fa-face-smile"></i>
+            </div>
+        </main>
+        <footer id="jsfooter"></footer>
+        <script src="scripts/navandfooter.js"></script>
+        <script src="scripts/gallery.js"></script>
+        <script src="scripts/hamburger.js"></script>
+    </body>
+</html>

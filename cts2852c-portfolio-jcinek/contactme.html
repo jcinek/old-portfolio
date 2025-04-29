@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en-US">
+    <!-- Head section - contains page title and site metadata -->
+    <head>
+        <title>Contact Me</title>
+        <link rel="stylesheet" href="css/mainstyles.css">
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="jqueryui/jquery-ui.css">
+        <link rel="stylesheet" href="jqueryui/jquery-ui.structure.css">
+        <link rel="stylesheet" href="jqueryui/jquery-ui.theme.css">
+        <link rel="stylesheet" href="css/hamburger.css">
+		<meta charset="UTF-8">
+		<meta name="description" content="Contact Me Page">
+		<meta name="keywords" content="Portfolio, EPortfolio, Web Design, Graphic Design">
+		<meta name="author" content="John Cinek">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/08d99e7348.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <video autoplay loop muted class="backvideo2">
+            <source src="assets/MotionGraphic2.mp4">
+        </video>
+        <nav>
+            <ul id="jsnav"></ul>
+            <ul class="hamburgerNav">
+                <li class="navItem">
+                    <a href="home.html">
+                    Home
+                    </a>
+                </li>
+                <li class="navItem">
+                    <a href="aboutme.html">
+                    About
+                    </a>
+                </li>
+                <li class="navItem">
+                    <a href="contactme.html">
+                    Contact
+                    </a>
+                </li>
+                <li class="navItem">
+                    <a href="gallery.html">
+                    Gallery
+                    </a>
+                </li>
+                <li class="navItem">
+                    <a href="mypage.html">
+                    Chat
+                    </a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+        <header class="headerflex">
+            <h1>Contact Me</h1>
+        </header>
+        <main class="centermain">
+            <form name="contactForm" id="contactForm" action="https://professorcooke.org/forms/processform.php" onsubmit="return formValidate()" novalidate>
+                <label for="firstName">First Name</label>
+                <input id="firstName" type="text" placeholder="First Name"><span id="firstNmError">First Name is required</span>
+
+                <label for="lastName">Last Name</label>
+                <input id="lastName" type="text" placeholder="Last Name"><span id="lastNmError">Last Name is required</span>
+
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="name@example.com"><span id="emailError">Valid email is required</span>
+
+                <label for="date">Date</label>
+                <input id="date" type="text" placeholder="mm/dd/yyyy"><span id="dateError">Date is required</span>
+
+                <label for="password">Password</label>
+                <input id="password" type="password">
+                <span id="passError">Password must be 8-16 characters, and must contain one capital letter and one number</span>
+                <span id="passWarn">Password must be 8-16 characters, and must contain one capital letter and one number</span>
+
+                <label id="textBoxLabel" for="textBox">Message</label>
+                <textarea id="textBox" cols="35" rows="10" maxlength="500" placeholder="max 500 characters"></textarea>
+
+                <div id="formButtons">
+                    <input type="submit">
+                    <input type="reset">
+                </div>
+            </form>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/john-cinek-293b48238" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <p>LinkedIn</p>
+                </a>                        
+            </div>
+        </main>
+        <footer id="jsfooter"></footer>
+        <script src="scripts/navandfooter.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="jqueryui/jquery-ui.js"></script>
+        <script src="scripts/jquerycalendar.js"></script>
+        <script src="scripts/contact.js"></script>
+        <script src="scripts/hamburger.js"></script>
+    </body>
+</html>

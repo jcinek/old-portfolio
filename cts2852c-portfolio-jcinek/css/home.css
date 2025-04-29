@@ -1,0 +1,57 @@
+body {
+    color: whitesmoke;
+    text-align: center;
+}
+
+#userName {
+    margin-bottom: .2em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+i {
+    font-size: 6em;
+    margin: 0;
+    margin-bottom: .1em;
+}
+
+a:hover i {
+    color: rgba(104, 104, 104, .8);
+    transition: .15s ease-in-out;
+}
+
+div {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+figcaption {
+    margin-top: .5em;
+    text-align: center;
+}
+
+main a {
+    margin: 5em;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+@media all and (max-width: 1000px) {
+    .homeIcons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main a {
+        margin: 1.3em;
+    }
+
+    main > p {
+        width: 25em;
+    }
+}
